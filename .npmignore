@@ -1,0 +1,10 @@
+.vscode
+node_modules
+.DS_Store
+yarn.lock
+demo
+build
+tsconfig.json
+tslint.json
+.npmignore
+.gitignore

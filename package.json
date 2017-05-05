@@ -1,0 +1,35 @@
+{
+  "name": "vtap",
+  "version": "1.0.0",
+  "description": "Vue tap plugin to remove click delays in iOS devices.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "node_modules/.bin/webpack-dev-server --config ./build/webpack.dev.conf.js",
+    "build": "webpack -p --hide-modules --config ./build/webpack.prod.conf.js",
+    "release": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjiahan/vtap.git"
+  },
+  "keywords": [
+    "vue",
+    "tap"
+  ],
+  "author": "neverland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenjiahan/vtap/issues"
+  },
+  "homepage": "https://github.com/chenjiahan/vtap#readme",
+  "devDependencies": {
+    "shelljs": "^0.7.7",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "vue": "^2.3.2",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0"
+  }
+}

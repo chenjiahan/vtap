@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./",
+        "target": "ES5",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "./src/*.ts"
+    ],
+    "exclude": [
+        "test",
+        "node_modules"
+    ],
+    "compileOnSave": false
+}
